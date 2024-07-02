@@ -16,6 +16,7 @@ from erpnext.controllers.subcontracting_controller import SubcontractingControll
 from erpnext.stock.get_item_details import get_conversion_factor
 from erpnext.stock.utils import get_incoming_rate
 
+
 class QtyMismatchError(ValidationError):
 	pass
 
