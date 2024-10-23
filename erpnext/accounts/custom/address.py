@@ -6,7 +6,6 @@ from frappe.contacts.doctype.address.address import (
 	get_address_templates,
 )
 
-
 class ERPNextAddress(Address):
 	def validate(self):
 		self.validate_reference()
