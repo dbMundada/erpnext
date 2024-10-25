@@ -18,7 +18,6 @@ jobs:
       PRIVADO_DEFAULT_BRANCH_NAME: ${{ github.event.repository.default_branch }}
       PRIVADO_REPOSITORY_URL: ${{ github.repositoryUrl }}
       PRIVADO_DEV: 1
-      PRIVADO_TAG: 'aiDEDRuleSupport'
     steps:
     - uses: actions/checkout@v4
       with:
